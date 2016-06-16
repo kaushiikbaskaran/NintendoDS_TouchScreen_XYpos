@@ -36,13 +36,18 @@ X coordinate - 0x3001010
 Y coordinate - 0x3002010
 
 Motivation:
+
 This project is an attempt to understand ARM7\ARM9 peripheral communication and memory mapping.
 
-   i) MAIN memory used by ARM9 for cacheing. Identifying memory segment to allow inter-processor communciation is interesting. 
-   ii) ARM 7 has a higher priority over ARM 9, had to sneak in extra parts to the code to handle efficient operation of program.  
+ 
+ i) MAIN memory used by ARM9 for cacheing. Identifying memory segment to allow inter-processor communciation is interesting. 
+ 
+ ii) ARM 7 has a higher priority over ARM 9, had to sneak in extra parts to the code to handle efficient operation of program.  
 
 Reference:
+
   Nintendo DS training kit was used to understand how to communicate with peripherals (touch screen & on_screen display).
   
 Test:
+
  Code can be tested via Nintendo DS emulators.
